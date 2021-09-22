@@ -93,10 +93,12 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="Employee_ptrs.cpp"/>
+    <File Name="BookStore.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="TimeLab5.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="FeetInchesLab5.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="ComplexLab5.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="RectangleLab5.cpp" ExcludeProjConfig=""/>
+    <File Name="RectangleLab5.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="AccountLab4.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="EmployeeLab3.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="StudentLab3.cpp" ExcludeProjConfig="Debug;"/>
