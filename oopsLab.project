@@ -93,7 +93,8 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="Employee_ptrs.cpp"/>
+    <File Name="MyString.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="Employee_ptrs.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="BookStore.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="TimeLab5.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="FeetInchesLab5.cpp" ExcludeProjConfig="Debug;"/>

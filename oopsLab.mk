@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=shuja
-Date                   :=21/09/2021
+Date                   :=05/10/2021
 CodeLitePath           :="E:/Program Files/CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
@@ -62,7 +62,7 @@ AS       := C:/MinGW/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=E:\Program Files\CodeLite
-Objects0=../build-$(ConfigurationName)/oopsLab/Employee_ptrs.cpp$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/oopsLab/Employee_ptrs.cpp$(ObjectSuffix): Employee_ptrs.cpp ../build-$(ConfigurationName)/oopsLab/Employee_ptrs.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "E:/oopsLab/oopsLab/oopsLab/Employee_ptrs.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Employee_ptrs.cpp$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/oopsLab/Employee_ptrs.cpp$(DependSuffix): Employee_ptrs.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/oopsLab/Employee_ptrs.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/oopsLab/Employee_ptrs.cpp$(DependSuffix) -MM Employee_ptrs.cpp
+../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(ObjectSuffix): saadmon.cpp ../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "E:/oopsLab/oopsLab/oopsLab/saadmon.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/saadmon.cpp$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(DependSuffix): saadmon.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(DependSuffix) -MM saadmon.cpp
 
-../build-$(ConfigurationName)/oopsLab/Employee_ptrs.cpp$(PreprocessSuffix): Employee_ptrs.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/oopsLab/Employee_ptrs.cpp$(PreprocessSuffix) Employee_ptrs.cpp
+../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(PreprocessSuffix): saadmon.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(PreprocessSuffix) saadmon.cpp
 
 
 -include ../build-$(ConfigurationName)/oopsLab//*$(DependSuffix)
