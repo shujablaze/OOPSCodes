@@ -6,16 +6,16 @@
 ProjectName            :=oopsLab
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
-WorkspacePath          :=E:/oopsLab/oopsLab
-ProjectPath            :=E:/oopsLab/oopsLab/oopsLab
+WorkspacePath          :=D:/oopsLab/oopsLab
+ProjectPath            :=D:/oopsLab/oopsLab/oopsLab
 IntermediateDirectory  :=../build-$(ConfigurationName)/oopsLab
 OutDir                 :=../build-$(ConfigurationName)/oopsLab
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=shuja
-Date                   :=05/10/2021
-CodeLitePath           :="E:/Program Files/CodeLite"
+User                   :=Shuja
+Date                   :=16/12/2021
+CodeLitePath           :="d:/Program Files/CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
 ObjectSuffix           :=.o
@@ -52,7 +52,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := C:/MinGW/bin/ar.exe rcu
 CXX      := C:/MinGW/bin/g++.exe
 CC       := C:/MinGW/bin/gcc.exe
-CXXFLAGS :=  -g -O0 -Wall $(Preprocessors)
+CXXFLAGS :=  -g -O0 -std=c++14 -std=c++11 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := C:/MinGW/bin/as.exe
@@ -61,8 +61,8 @@ AS       := C:/MinGW/bin/as.exe
 ##
 ## User defined environment variables
 ##
-CodeLiteDir:=E:\Program Files\CodeLite
-Objects0=../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(ObjectSuffix) 
+CodeLiteDir:=d:\Program Files\CodeLite
+Objects0=../build-$(ConfigurationName)/oopsLab/1.cpp$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(ObjectSuffix): saadmon.cpp ../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "E:/oopsLab/oopsLab/oopsLab/saadmon.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/saadmon.cpp$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(DependSuffix): saadmon.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(DependSuffix) -MM saadmon.cpp
+../build-$(ConfigurationName)/oopsLab/1.cpp$(ObjectSuffix): 1.cpp ../build-$(ConfigurationName)/oopsLab/1.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/oopsLab/oopsLab/oopsLab/1.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/1.cpp$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/oopsLab/1.cpp$(DependSuffix): 1.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/oopsLab/1.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/oopsLab/1.cpp$(DependSuffix) -MM 1.cpp
 
-../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(PreprocessSuffix): saadmon.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/oopsLab/saadmon.cpp$(PreprocessSuffix) saadmon.cpp
+../build-$(ConfigurationName)/oopsLab/1.cpp$(PreprocessSuffix): 1.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/oopsLab/1.cpp$(PreprocessSuffix) 1.cpp
 
 
 -include ../build-$(ConfigurationName)/oopsLab//*$(DependSuffix)

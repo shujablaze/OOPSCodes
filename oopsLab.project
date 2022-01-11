@@ -2,6 +2,30 @@
 <CodeLite_Project Name="oopsLab" Version="11000" InternalType="Console">
   <Description/>
   <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="LabExam.cpp"/>
+    <File Name="Generic queue.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="VirualOne.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="Vehicle.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="generic_Stack.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="Company_polymorphism.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="Employee_inheritance_menu.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="Employee_Inheritance.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="Stack_lnk_list.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="Sess1-b.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="Sess1-a.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="MyString.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="Employee_ptrs.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="BookStore.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="TimeLab5.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="FeetInchesLab5.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="ComplexLab5.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="RectangleLab5.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="AccountLab4.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="EmployeeLab3.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="StudentLab3.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="main.cpp" ExcludeProjConfig="Debug;"/>
+  </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -13,13 +37,13 @@
       <ResourceCompiler Options=""/>
     </GlobalSettings>
     <Configuration Name="Debug" CompilerType="MinGW ( C:\MinGW\bin\ )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
-      <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+      <Compiler Options="-g;-O0;-std=c++14;-std=c++11;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
         <IncludePath Value="."/>
       </Compiler>
       <Linker Options="" Required="yes"/>
       <ResourceCompiler Options="" Required="no"/>
       <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
-      <BuildSystem Name="CodeLite Make Generator"/>
+      <BuildSystem Name="CodeLite Makefile Generator"/>
       <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
         <![CDATA[]]>
       </Environment>
@@ -59,7 +83,7 @@
       <Linker Options="" Required="yes"/>
       <ResourceCompiler Options="" Required="no"/>
       <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
-      <BuildSystem Name="CodeLite Make Generator"/>
+      <BuildSystem Name="CodeLite Makefile Generator"/>
       <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
         <![CDATA[]]>
       </Environment>
@@ -92,19 +116,6 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="MyString.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="Employee_ptrs.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="BookStore.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="TimeLab5.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="FeetInchesLab5.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="ComplexLab5.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="RectangleLab5.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="AccountLab4.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="EmployeeLab3.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="StudentLab3.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="main.cpp" ExcludeProjConfig="Debug;"/>
-  </VirtualDirectory>
   <Dependencies Name="Debug"/>
   <Dependencies Name="Release"/>
 </CodeLite_Project>
